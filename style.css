@@ -1,0 +1,60 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+table{
+    position: relative;
+    margin: auto;
+    width: 1200px;
+    border-collapse: collapse;
+}
+
+.cap{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+thead{
+    background-color: #F8F9FA; 
+}
+
+thead > tr >th{
+    position: sticky;
+    top: -1px;
+    background-color:  rgb(169, 169, 169);
+}
+
+tbody > tr:nth-child(odd){
+    background-color: rgba(169, 169, 169, 0.425);
+}
+
+
+.num1{
+    text-align: center;
+}
+
+.num2{
+    text-align: right;
+}
+
+.porc1{
+    align-items: center;
+    color: #008000;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.712);
+}
+
+a:hover{
+    text-decoration: underline;
+}
